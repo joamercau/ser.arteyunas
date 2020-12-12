@@ -1,0 +1,236 @@
+/*
+#fbdff0 violeta mas claro
+#f6c3e5 violeta segundo mas claro
+#a278b5 violeta oscurito
+#381460 violeta bien oscuro
+*/
+body{
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	background: #a278b5;
+	color: #381460;
+}
+
+/*Barra de Navegacion*/
+header{
+	/*background: #f6c3e5;*/
+	height: 140px;
+	display: flex;
+	justify-content: space-between;
+}	
+
+/*Mis Creaciones*/
+header div p{
+	margin-left: 15px;
+	margin-bottom: 0px;
+	/*border-bottom: 1px solid #333;*/
+}
+.miscreaciones{
+	/*background: blue;*/
+	margin-left: 40px;
+	margin-top: 16px;
+}
+	
+.logosCreacionesSize{
+	width: 40px;
+	margin-left: 23px;
+}
+
+/*Logo Central*/
+.logoprincipal{
+	/*background: red;*/
+	text-align: center;
+	margin-right: 50px;
+}
+
+.logo{
+	width: 100px;
+	margin-top: 14px;
+}
+
+/*Contactos*/
+.contacto{
+	/*background: yellow;*/
+	margin-top: 30px;
+	margin-right: 60px;
+}
+
+.logoMail{
+	width: 50px;
+}
+
+/*Cuadro Bienvenida/Atajo a cursos*/
+.cajaPrincipal{
+	background: #f6c3e5;
+	margin-top: 30px;
+	padding: 20px;
+	width: 70%;
+	border-radius: 70px;
+}
+
+.textoCajaPrincipal{
+	text-align: center;
+	color: #381460;
+}
+
+.textoCajaPrincipal h1 {
+	font-weight: 700;
+}
+
+.btn-primary{
+	font-size: 25px;
+	background: #a278b5;
+	border-color: #381460;
+	color: #381460;
+}
+
+.btn-primary:hover{
+	background:	#381460;
+	border-color: #a278b5;
+	color: #a278b5;
+}
+
+.btn-primary:active{
+	background:	#381460;
+	border-color: #a278b5;
+	color: #a278b5;
+}
+/*Mensaje de bienvenida*/
+.mensajeBienvenida{
+	margin-top: 50px;
+	font-size: 30px;
+	text-align: center;
+}
+/*Cursos*/
+#tituloCursos{
+	font-weight: 700;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.cajaCursos h4{
+	font-weight: 700;
+	font-size: 40px
+}
+.cajaCursos p {
+	font-size: 25px
+}
+.cajaCursos{
+	margin-top: 40px;
+}
+
+.cursos{
+	text-align: center;
+}
+
+.imagenCursos{
+	width: 185px;
+	border-radius: 15px;
+}
+
+.btn-success{
+	background:	#381460;
+	border-color: #a278b5;
+	color: #a278b5;
+}
+
+.btn-success:hover{
+	font-size: 25px;
+	background: #a278b5;
+	border-color: #381460;
+	color: #381460;
+}
+
+.btn-success:active{
+	font-size: 25px;
+	background: #a278b5;
+	border-color: #381460;
+	color: #381460;
+}
+/*Footer*/
+footer{
+	background: #f6c3e5;
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+
+.botonInicio{
+	text-decoration: none;
+	color: #381460;
+}
+
+footer p{
+	margin-bottom: 0;
+	text-align: right;
+}
+
+/*curso esculpidas en gel*/
+
+/*titulo curso*/
+.tituloEsculpidas{
+	text-align: center;
+}
+
+.cajaTituloCurso{
+	background:#f6c3e5;
+	border-radius: 	15px;
+}
+
+.tituloEsculpidas h1{
+	font-weight: 700;
+	font-size: 53px;
+}
+
+.infoEsculpidas{
+	margin-top: 40px;
+}
+
+.infoEsculpidas h2{
+	font-weight: 700;
+	border-bottom: 1px solid #381460;
+}
+
+.infoEsculpidas p{
+	text-align: left;
+}
+
+.infoEsculpidas ul li{
+	text-align: left;
+}
+
+.imagenMuestra{
+	margin-top: 30px;
+	width: 280px;
+	border-radius: 70px;
+}
+
+.cajaMaterialesCurso{
+	margin-top: 50px;
+}
+
+.materialesCurso{
+	text-align: left;
+}
+
+.cajaBotonPago{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 80px;
+}
+
+.botonPago{
+	text-decoration: none;
+	background: #381460;
+	color: #fbdff0;
+	padding: 10px 20px;
+	border-radius: 15px; 
+}
+
+.botonPago:hover{
+	text-decoration: none;
+	color: #381460;
+	background: #fbdff0;
+	padding: 10px 20px;
+	border-radius: 15px; 
+}
